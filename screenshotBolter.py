@@ -4,7 +4,7 @@ import mss
 import time, datetime
 from PIL import Image
 
-outputdirectory = "Z:\\outlier\\screenshots"   #Feel free to change this as needed
+outputdirectory = "."   #Feel free to change this as needed
 
 def capture_and_combine(monitor_numbers):
     with mss.MSS() as sct:
