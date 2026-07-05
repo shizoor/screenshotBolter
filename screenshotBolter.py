@@ -7,7 +7,7 @@ from PIL import Image
 outputdirectory = "Z:\\outlier\\screenshots"   #Feel free to change this as needed
 
 def capture_and_combine(monitor_numbers):
-    with mss.mss() as sct:
+    with mss.MSS() as sct:
         # sct.monitors[0] is the whole virtual screen, 1+ are individual screens
         available_monitors = len(sct.monitors) - 1
 
