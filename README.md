@@ -12,7 +12,7 @@ Create an environment for it, if you don't it doesn't matter too much. <br/>
 Under Windows this is : <br/>
 
 python -m venv .venv <br/>
-.\.venv\Scripts\Activate.ps1 <br/>
+.\\.venv\Scripts\Activate.ps1 <br/>
 <br/>
 For Linux use python3 <br/>
 
