@@ -22,4 +22,10 @@ Install the necessary python libraries : <br/>
 pip3 install mss <br/>
 pip3 install pillow <br/>
 
+Then to use : <br/>
 
+python .\screenshotBolter.py 1 2  <br/>
+Successfully saved ./monitor_1_1794103911269.428.png <br/>
+Successfully saved ./monitor_2_1794103911315.223.png <br/>
+
+Successfully saved combined image as ./combined_monitors_1794103911336.7268.png
